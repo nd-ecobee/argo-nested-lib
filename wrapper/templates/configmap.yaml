@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ .Release.Name }}-wrapper
+  name: {{ include "local-lib.name" . }}-wrapper
 data:
   message: "Hello from wrapper"
   {{- include "app.myCustomFunction" . | nindent 2 }}

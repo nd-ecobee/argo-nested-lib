@@ -1,0 +1,5 @@
+apiVersion: v2
+name: local-lib
+description: A library chart for local common templates
+type: library
+version: 0.1.0

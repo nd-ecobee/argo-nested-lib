@@ -1,3 +1,6 @@
 # Exclude generated chart dependencies
-app/charts/
-wrapper/charts/
+**/charts/
+
+# Exclude locks
+**/Chart.lock
+
