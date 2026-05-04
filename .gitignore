@@ -1,0 +1,3 @@
+# Exclude generated chart dependencies
+app/charts/
+wrapper/charts/
